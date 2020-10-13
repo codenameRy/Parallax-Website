@@ -127,6 +127,33 @@ nav{
     transform: translateY(-8px);
 }
 
-.bar:before{
+.bar:after{
     transform: translateY(-8px);
+}
+
+.big-title{
+    position: absolute;
+    z-index: 30;
+    line-height: 4rem;
+    top: calc(50% - 2rem);
+    width: 100%;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+section{
+    width: 100%;
+    background-color: #151515;
+    position: relative;
+}
+
+section .container{
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }

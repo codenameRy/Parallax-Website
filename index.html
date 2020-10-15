@@ -1,36 +1,55 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Parallax Scrolling Effect</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <div class="container">
-                    <h3 class="logo">Brand<span>Name</span></h3>
-                    <div class="hamburger-menu">
-                        <div class="bar">
-                            
-                        </div>
-                    </div>
-                </div>
-            </nav>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Parallax Scrolling Effect</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <h3 class="logo">Brand<span>Name</span></h3>
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+          </div>
+        </div>
+      </nav>
 
-            <h1 class="big-title">Discover</h1>
+      <h1 class="big-title">Discover</h1>
 
-            <img src="/img/person.png" class="person" alt="">
-            <img src="/img/mountain1.png" class="mountain1" alt="">
-            <img src="/img/mountain2.png" class="mountain2" alt="">
-            <img src="img/mountain3.png" class="mountain3" alt="">
-            <img src="img/sky.png" class="sky" alt="">
-            <!-- <img src="" class="" alt=""> -->
-        </header>
-        
-        <script src="" async defer></script>
-    </body>
+      <img src="/img/person.png" class="person translate" data-speed="0.2" alt="person" />
+      <img src="/img/mountain1.png" class="mountain1 translate" data-speed="0.2" alt="mountain1" />
+      <img src="/img/mountain2.png" class="mountain2 translate" data-speed="0.2" alt="mountain2" />
+      <img src="img/mountain3.png" class="mountain3 translate" data-speed="0.2" alt="mountain3" />
+      <img src="img/sky.png" class="sky" alt="sky" />
+      <!-- <img src="" class="" alt=""> -->
+    </header>
+
+    <section>
+        <div class="shadow"></div>
+      <div class="container">
+        <div class="content">
+          <h3 class="title">
+              About
+              <div class="border"></div>
+            </h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            nisi veritatis quas illum numquam obcaecati, voluptas minima animi
+            in eveniet, nemo accusantium modi omnis debitis quam unde
+            repudiandae fugiat iste?
+          </p>
+        </div>
+        <div class="imgContainer">
+            <img src="/img/image.jpg" alt="" srcset="">
+        </div>
+      </div>
+    </section>
+
+    <script src="app.js" async defer></script>
+  </body>
 </html>

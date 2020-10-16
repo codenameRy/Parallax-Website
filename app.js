@@ -1,5 +1,14 @@
 const translate = document.querySelectorAll(".translate");
 
+//Make title disappear as we scroll the page
+const big_title = document.querySelector(".big_title");
+const header = document.querySelector("header");
+
+//Get height of header
+let header_height = header.offsetHeight;
+
+console.log(header_height);
+
 window.addEventListener('scroll', () => {
     //Get number of pixels we scroll upward and place in variable "scroll"
     let scroll = window.pageYOffset;

@@ -21,4 +21,6 @@ window.addEventListener('scroll', () => {
         //Move each elemnet based on the result of mutiplying scroll value by speed value
         element.style.transform = `translateY(${scroll * speed}px)`;
     })
+    //Set the opacity value of the title to the result of the mathematic formula value between 0 and 1 based on the scroll value
+    big_title.style.opacity = - scroll / (header_height / 2) + 1
 })

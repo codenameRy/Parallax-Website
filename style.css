@@ -173,6 +173,7 @@ section .container > *{
 }
 .content{
     color: #fff;
+    transform: translateY(-50px);
 }
 
 .title{
@@ -199,6 +200,7 @@ section .container > *{
     width: 100%;
     left: 0;
     z-index: 20;
+    /* background: blue; */
     background: linear-gradient(to top, #151515, transparent);
 }
 
